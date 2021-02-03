@@ -13,6 +13,6 @@ public class test : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        transform.GetComponent<Renderer>().material.color = Color.red;
+        transform.GetComponent<Renderer>().material.color = Color.blue;
     }
 }
