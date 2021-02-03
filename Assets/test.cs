@@ -14,5 +14,6 @@ public class test : MonoBehaviour
     void Update()
     {
         transform.GetComponent<Renderer>().material.color = Color.red;
+        this.name = "kup";
     }
 }
